@@ -1,0 +1,4 @@
+decorator==4.3.0
+dpath==1.4.2
+networkx==2.2
+xmltodict==0.11.0

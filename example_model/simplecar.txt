@@ -1,0 +1,64 @@
+{
+  "Mycar": {
+    "color": {
+      "type": null,
+      "value": "blue"
+    },
+    "Chassis": {
+      "Tyre": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "Damper": {},
+      "ElectricDrivetrain": {
+        "max_torque": {
+          "type": null,
+          "is_derrived": true,
+          "value": "100"
+        },
+        "max_speed": {
+          "type": null,
+          "is_derrived": true,
+          "value": "300"
+        },
+        "inheriting_from": "Drivetrain",
+        "ElectricEngine": {},
+        "Battery": {
+          "voltage": {
+            "type": null,
+            "value": null
+          },
+          "SOC": {
+            "type": null,
+            "value": null
+          }
+        }
+      }
+    },
+    "inheriting_from": "simplecar",
+    "classifier": "simplecar",
+    "Mytrailer": {
+      "n_axes": {
+        "type": null,
+        "value": null
+      },
+      "max_load": {
+        "type": null,
+        "value": null
+      },
+      "length": {
+        "type": null,
+        "value": null
+      },
+      "n_tyres": {
+        "type": null,
+        "value": "4"
+      },
+      "Tyre": {},
+      "inheriting_from": "Trailer",
+      "classifier": "Trailer"
+    }
+  }
+}
