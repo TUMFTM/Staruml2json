@@ -21,7 +21,7 @@ main.py - entrypoint ot start the the converter
 
 
 ## Simple Example
-[>> Detailed Tutorial Here <<](tutorial.md)
+[>> Detailed Tutorial Here <<](doc/tutorial.md)
 
 1. Starting point: simplecar.mdj. This models a simple car using the concepts of inheritage, aggregations, attributes, multiplicity, objects/instances and links between them.
 The model consits of the class-structures "simplecar" and "trailer". Both modeled using classes, inheritance and aggregations. In a object diagram they are put together to a acutual vehicle "Mycar" using an actual trailer "Mytrailer". 
