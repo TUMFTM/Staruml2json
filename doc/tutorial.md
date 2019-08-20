@@ -28,6 +28,7 @@ We start modelling by adding classes to the class-diagram. Now we want to start 
 
 <br/>
 From now on, all concepts which one need to know are clear. Continue the model process, until you get the following structure. Repeat the whole process create a meta model of a trailer. 
+
 ![simple_car_meta_model](doc/simple_car_meta_model.png) ![trailer](doc/trailer_meta_model.png)
 
 ### Objects and setting up a model
