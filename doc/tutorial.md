@@ -29,8 +29,7 @@ We start modelling by adding classes to the class-diagram. Now we want to start 
 <br/>
 From now on, all concepts which one need to know are clear. Continue the model process, until you get the following structure. Repeat the whole process create a meta model of a trailer. 
 
-![simple_car_meta_model](simple_car_meta_model.png) 
-![trailer](trailer_meta_model.png)
+![simple_car_meta_model](simple_car_meta_model.png) | ![trailer](trailer_meta_model.png)
 
 ### Objects and setting up a model
 Now that we have the meta model of our simplecar defined, we can turn it into a model, or a concrete instance of the defined classes. At first, we can create a new *Model* Container into our project. Into that container, we can create a new *ObjectDiagram*.
