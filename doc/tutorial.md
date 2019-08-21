@@ -4,8 +4,7 @@ In this tutorial we go through the minimal example to use staruml2json converter
 
 ## Step 0: Preparation
 Get yourself an installation of [Staruml](http://staruml.io/), which can be evaluated for free. Staruml is available for Windows and Linux. We presume V3 in this tutorial. <br>
-Make yourself familiar with the syntax of this tool (described on [mainpage](https://github.com/TUMFTM/Staruml2json)).
-Start the Staruml editor and start a new class diagram.
+Make yourself familiar with the syntax of this converter tool (described on [mainpage](https://github.com/TUMFTM/Staruml2json)).
 
 ### Prepare the environment for the tool
 We advise to use a python virtual environment for the tool. Benefit is that you do not need to mess with the global python interpreter and its packages. 
@@ -18,7 +17,8 @@ You are good to go!
 
 ## Step 1: Modelling
 ### Classes and setting up the meta model
-We start modelling by adding classes to the class-diagram. Now we want to start to build up a meta model of a car.
+We start modelling by adding classes to the class-diagram. Now we want to start to build up a meta model of a car. Start the Staruml editor and use the default new class diagram.
+
 * Add the class *simplecar* to the diagram. This is our most top level class.
 * Add the class *Chassis* to the diagram.
 * Add a *Composition* from *Chassis* to *simplecar*. The black rhomb is on the *simplecars* side. Additionall we add multiplications of 1 to the ends of the *Composition*. Each simplecar has exactly one Chassis.
